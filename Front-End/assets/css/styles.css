@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.conteudo{
+    display: grid;
+    grid-template-columns: 4% 96%;
+}
+
+main{
+    background-color: #F1F1F1;
+    height: 100vh;
+    min-width: 750px;
+}
+
+nav{
+    position: sticky;
+    min-width: 60px;
+}
+
+nav li{
+    list-style: none;
+    font-size: 0.6em;
+}
+
+@media(max-width: 1500px){ 
+    .conteudo{
+        grid-template-columns: 6% 94%;
+    }
+}
+
+@media(max-width: 1000px){ 
+    .conteudo{
+        grid-template-columns: 8% 92%;
+        min-width: 60px;
+    }
+}

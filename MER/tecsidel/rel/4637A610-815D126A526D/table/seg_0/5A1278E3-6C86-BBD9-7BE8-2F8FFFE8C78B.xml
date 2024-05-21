@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A1278E3-6C86-BBD9-7BE8-2F8FFFE8C78B" name="T_PORTICO">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>E36D1557-521B-403B-D24A-83F4758B3B3D</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_portico" id="8E1F406F-32A9-D95B-249B-9C93102706D5">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>505FD04C-7C4E-FF54-D110-89DC13E868AA</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="localizacao" id="0590E9D2-4FF9-0485-8134-4CD8A4362761">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>AEFE2162-4781-00E3-2470-AA1CB08C4DA4</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="05E3B3FA-B47C-6F14-3B18-100C2C430CFA">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>34273239-7FFF-F3B4-3B3E-2D75C682F5CF</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="latitude" id="DE7C2423-6C20-65C2-F1F3-1F50D6762D7F">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>7232FD17-6F87-20DC-E762-40447A5BF8D9</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>8</dataTypeScale>
+<ownDataTypeParameters>,10,8</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="longitude" id="8231A182-6720-31CB-D4F1-82837D3BA0C9">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>745F70F3-9DC6-B75B-9BFB-6C3DEB6344C5</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>8</dataTypeScale>
+<ownDataTypeParameters>,11,8</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="temperatura" id="7EA088EE-96EF-1368-0F0E-CE807073CC33">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>160FB5ED-2323-6C67-87B5-D590876CCF0B</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="umidade" id="3B504EE4-A326-CA96-6C1F-4E89F85DE33A">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>B3658545-5B4F-6910-4C97-471D15A785DD</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="consumo_energia" id="B56D36DA-21CE-CEB5-763C-E9ED9647C2DC">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>B49C17FE-B810-E8A5-AEA4-1617EB349A7A</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_passagem" id="E820F4B2-875E-FE20-E6F5-8FB73D59650E">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>B3D61C69-A4C3-236B-1A95-F5AE6DC0843F</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="74C55D94-FFE6-CF07-EA55-7CD43D37D93D" referredColumn="13795932-6F3B-20E5-4C7F-5BAAD549C2E4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF7097EC-66C9-1EF4-8D66-E1C7DFE7872A" name="T_PORTICO_PK">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>745E54CC-8417-1388-A62B-ECB86CBF99E8</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E1F406F-32A9-D95B-249B-9C93102706D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3624010-D859-DAB4-1961-059528DA79AD" name="T_PORTICO__IDX">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<ownerDesignName>tecsidel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>BD3A3BA4-1FBC-AD27-A6ED-2EC78A0F196D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E820F4B2-875E-FE20-E6F5-8FB73D59650E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6166D237-AAF2-2FD0-983B-74BA69B01526" name="T_PORTICO_T_PASSAGEM_FK">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>BD3A3BA4-1FBC-AD27-A6ED-2EC78A0F196D</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E820F4B2-875E-FE20-E6F5-8FB73D59650E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

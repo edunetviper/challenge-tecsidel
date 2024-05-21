@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="859B6FEF-10D8-505D-8C52-BDBA5A38C728" containerWithKeyObject="50C0175A-8A2E-D398-EDC3-87ABDF5D92D5" localFKIndex="E6F63B43-DEAD-BCB1-AB9A-79883CD32B0F" name="T_PASSAGEM_T_CAMERA_FK">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>DA9AF7E9-A1F1-CED5-5ABB-06682FFB7FFD</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<referredTableLongName>T_CAMERA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A25BB24F-206E-5977-4D1D-326B424A6464</referredTableID>
+<keyObject>D5B5D10A-BC8D-B75E-750B-0D40B2B80826</keyObject>
+<referredKeyID>D5B5D10A-BC8D-B75E-750B-0D40B2B80826</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_camera</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

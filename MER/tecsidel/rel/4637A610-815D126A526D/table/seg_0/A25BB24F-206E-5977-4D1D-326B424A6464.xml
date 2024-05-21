@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A25BB24F-206E-5977-4D1D-326B424A6464" name="T_CAMERA">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>30A6D7FD-B975-65D9-B5A2-58786EDD5BDC</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_camera" id="F59C5D74-9F1B-E8EB-1221-7BA9849C0FAE">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>DDCA9E64-2F85-82A3-7623-D4048CC3BFF6</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="CD9F6C44-1ADE-D565-DB5F-0BBDE28CD653">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>51E24B54-8732-27CA-F561-5A44457BF7A9</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="angulo_visao" id="53BF51CC-2FCB-41F3-A85F-83F89755EE90">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>640A909B-F973-949D-DFB7-355BE54FA187</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="luminosidade_ambiente" id="BE238274-F655-2855-4326-C9C7AAEC6481">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>1C11B987-6C0D-6FBA-F3DC-B783FEF98791</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capacidade_armazenamento" id="C9A27752-8079-6402-3BBC-E35F664D1E62">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>34DB3567-F1C2-2229-9866-3BC15A6782EF</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="resolucao" id="9628DE69-91E9-61EE-30FA-F4EADC4EAF84">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>FB66E6A2-3EB4-078D-ADC6-5343A3906348</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_portico" id="75CE480F-F9FB-A24C-43D3-8A9745BF3DD5">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>BCBA6130-BC1D-969B-3CB3-4C64D52135D8</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6AB65AF-C3A2-1A04-47EE-C846836CF281" referredColumn="8E1F406F-32A9-D95B-249B-9C93102706D5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D5B5D10A-BC8D-B75E-750B-0D40B2B80826" name="T_CAMERA_PK">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>82490808-5159-283E-4248-F713FB82B7EF</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F59C5D74-9F1B-E8EB-1221-7BA9849C0FAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F4BDF1F-7C03-07C4-CBC0-B5EB01849978" name="T_CAMERA_T_PORTICO_FK">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>209425A1-1691-36D7-B44C-EB757DC12897</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75CE480F-F9FB-A24C-43D3-8A9745BF3DD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

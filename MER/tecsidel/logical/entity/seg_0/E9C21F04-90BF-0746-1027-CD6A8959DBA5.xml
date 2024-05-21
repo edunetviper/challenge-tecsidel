@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E9C21F04-90BF-0746-1027-CD6A8959DBA5" name="T_ANTENA">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 00:03:10 UTC</createdTime>
+<ownerDesignName>tecsidel</ownerDesignName>
+<engineerTo>
+<item key="4637A610-B5FD-0512-EA0F-815D126A526D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_antena" id="183108FE-F4D2-D766-EC4D-532E33371B40">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 00:03:16 UTC</createdTime>
+<ownerDesignName>tecsidel</ownerDesignName>
+<engineerTo>
+<item key="4637A610-B5FD-0512-EA0F-815D126A526D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="4D7789F7-752D-2AD2-C3E8-761F17D2E20D">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 00:03:36 UTC</createdTime>
+<ownerDesignName>tecsidel</ownerDesignName>
+<engineerTo>
+<item key="4637A610-B5FD-0512-EA0F-815D126A526D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="frequencia" id="561E75CA-AC20-9FB0-8E8C-D25F2E6B838F">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 00:04:05 UTC</createdTime>
+<ownerDesignName>tecsidel</ownerDesignName>
+<engineerTo>
+<item key="4637A610-B5FD-0512-EA0F-815D126A526D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alcance" id="35F5D56D-6500-697A-F00A-7A48E526A235">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 00:04:21 UTC</createdTime>
+<ownerDesignName>tecsidel</ownerDesignName>
+<engineerTo>
+<item key="4637A610-B5FD-0512-EA0F-815D126A526D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="potencia_transmissao" id="38A4394B-371C-9886-125B-403A6C7908AF">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 00:04:37 UTC</createdTime>
+<ownerDesignName>tecsidel</ownerDesignName>
+<engineerTo>
+<item key="4637A610-B5FD-0512-EA0F-815D126A526D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="largura_banda" id="D0596ED3-8633-116C-D240-361C75075C2A">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 00:04:57 UTC</createdTime>
+<ownerDesignName>tecsidel</ownerDesignName>
+<engineerTo>
+<item key="4637A610-B5FD-0512-EA0F-815D126A526D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_portico" id="4D8C0C1E-3825-C870-C568-F56B2303EC6D">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:13:27 UTC</createdTime>
+<generatorID>42FF4604-76CD-93A5-A487-3F8969047311</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<engineerTo>
+<item key="4637A610-B5FD-0512-EA0F-815D126A526D" value="true"/>
+</engineerTo>
+<referedAttribute>505FD04C-7C4E-FF54-D110-89DC13E868AA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C0CE3A2A-C23C-D284-400A-67E299C66C7B" name="T_ANTENA PK">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 00:03:27 UTC</createdTime>
+<ownerDesignName>tecsidel</ownerDesignName>
+<engineerTo>
+<item key="4637A610-B5FD-0512-EA0F-815D126A526D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>183108FE-F4D2-D766-EC4D-532E33371B40</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

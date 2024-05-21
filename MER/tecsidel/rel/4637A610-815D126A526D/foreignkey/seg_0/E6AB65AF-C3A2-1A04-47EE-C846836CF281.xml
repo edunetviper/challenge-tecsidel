@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E6AB65AF-C3A2-1A04-47EE-C846836CF281" containerWithKeyObject="A25BB24F-206E-5977-4D1D-326B424A6464" localFKIndex="6F4BDF1F-7C03-07C4-CBC0-B5EB01849978" name="T_CAMERA_T_PORTICO_FK">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>209425A1-1691-36D7-B44C-EB757DC12897</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<referredTableLongName>T_PORTICO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5A1278E3-6C86-BBD9-7BE8-2F8FFFE8C78B</referredTableID>
+<keyObject>DF7097EC-66C9-1EF4-8D66-E1C7DFE7872A</keyObject>
+<referredKeyID>DF7097EC-66C9-1EF4-8D66-E1C7DFE7872A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_portico</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
