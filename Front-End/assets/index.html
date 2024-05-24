@@ -15,39 +15,45 @@
 </head>
 <body>
     <div class="conteudo">
-        <nav class="shadow">
-            <ul class="p-0 list-group nav">
+        <nav class="z-3 shadow">
+            <ul class="list-group nav">
                 <div>
-                    <li class="text-center h-25 w-100 list-group-item">Logo</li>
+                    <div class="text-center logo pt-4 rounded"><p class="text-center fw-bold" style="color: black;">TECSIDEL</p></div>
                 </div>
-                <div style="margin-top: 40vh;">
-                    <li class="text-center h-25 w-100 list-group-item active p-0" aria-current="true" >Home</li>
-                    <li class="text-center h-25 w-100 list-group-item p-0" >CCTV</li>
-                    <li class="text-center h-25 w-100 list-group-item p-0" >Status</li>
-                    <li class="text-center h-25 w-100 list-group-item p-0" >Eventos</li>
-                    <li class="text-center h-25 w-100 list-group-item p-0" >Calendário</li>
+                <div class="mx-auto" style="margin-top: 25vh;">
+                    <a href="" style="text-decoration: none;"><li class="text-center w-100 mx-auto" aria-current="true"><img src="images/Circled_Menu.svg" alt="Home"><p class="fw-bold">Home</p></li></a>
+                    <a href="" style="text-decoration: none;"><li class="text-center w-100 mx-auto" ><img src="images/Camera.svg" alt="CCTV"><p class="fw-bold">CCTV</p></li></a>
+                    <a href="" style="text-decoration: none;"><li class="text-center w-100 mx-auto" ><img src="images/Status.svg" alt="Status"><p class="fw-bold">Status</p></li></a>
+                    <a href="" style="text-decoration: none;"><li class="text-center w-100 mx-auto" ><img src="images/Timeline.svg" alt="Eventos"><p class="fw-bold">Eventos</p></li></a>
+                    <a href="" style="text-decoration: none;"><li class="text-center w-100 mx-auto" ><img src="images/Calendar.svg" alt="Calendário"><p class="fw-bold">Calendário</p></li></a>
                 </div>
             </ul>
         </nav>
         <main class="">
             <section>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-6">Barra de pesquisa</div>
-                        <div class="col-2">Notificação</div>
-                        <div class="col-4">Usuario</div>
+                <div class="container align-middle position-relative">
+                    <div class="row position-absolute top-50 primeira-secao">
+                        <div class="col-9"><input type="search" placeholder="Pesquisar..." class="search rounded-pill shadow ps-3"></input></div>
+                        <div class="col-1"><a href=""><img src="images/Notification.svg" alt="Notification" style="width: 30px; float: right;"></a></div>
+                        <div class="col-2" ><a href="" style="text-decoration: none;"><img src="images/User.svg" alt="Usuário" style="width: 30px; float: left;"><p class="fw-bold mt-1">Usuário</p></a></div>
                     </div>
                 </div>
             </section>
             <section>
                 <div class="container">
-                    <div class="row gx-5">
-                        <div class="col-6 rounded shadow ">Status dos Pórticos</div>
-                        <div class="col-6 rounded shadow ">CCTV Pórtico</div>
-                    </div>
-                    <div class="row">
-                        <div class="col-6 rounded shadow ">Passagens por Hora</div>
-                        <div class="col-6 rounded shadow ">Info Pórtico</div>
+                    <div class="row gy-4 mt-1">
+                        <div class="col-6">
+                            <div class="rounded shadow card"></div>
+                        </div>
+                        <div class="col-6">
+                            <div class="rounded shadow card"></div>
+                        </div>
+                        <div class="col-6">
+                            <div class="rounded shadow card"></div>
+                        </div>
+                        <div class="col-6">
+                            <div class="rounded shadow card"></div>
+                        </div>
                     </div>
                 </div>
             </section>
