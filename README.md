@@ -1,4 +1,4 @@
-# Descrição do Repositório - Challenge FIAP com TECSIDEL
+# Challenge FIAP com TECSIDEL
 
 ## Descrição do Projeto
 
