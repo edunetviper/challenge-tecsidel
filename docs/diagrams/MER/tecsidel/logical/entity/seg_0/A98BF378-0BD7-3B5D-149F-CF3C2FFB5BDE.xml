@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A98BF378-0BD7-3B5D-149F-CF3C2FFB5BDE" name="T_PASSAGEM">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 00:08:24 UTC</createdTime>
+<ownerDesignName>tecsidel</ownerDesignName>
+<engineerTo>
+<item key="4637A610-B5FD-0512-EA0F-815D126A526D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_passagem" id="C3A4CF32-5D50-71DA-687B-159F46E826B7">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 00:08:34 UTC</createdTime>
+<ownerDesignName>tecsidel</ownerDesignName>
+<engineerTo>
+<item key="4637A610-B5FD-0512-EA0F-815D126A526D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_hora" id="330D188F-A7BF-DDF7-44AE-94AE7E3ADCD5">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 00:08:47 UTC</createdTime>
+<ownerDesignName>tecsidel</ownerDesignName>
+<engineerTo>
+<item key="4637A610-B5FD-0512-EA0F-815D126A526D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="velocidade" id="B457EC4B-367B-1180-25C3-6C446869E97B">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 00:09:18 UTC</createdTime>
+<ownerDesignName>tecsidel</ownerDesignName>
+<engineerTo>
+<item key="4637A610-B5FD-0512-EA0F-815D126A526D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_veiculo" id="7B410068-D675-E1FE-130C-6FB06499AFB4">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 00:11:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Este atributo representa o tipo específico de veículo que foi detectado em uma passagem através do pórtico. Por exemplo, o tipo de veículo pode ser "Sedan", "Caminhão Baú", "Ônibus Urbano", "Motocicleta Esportiva", etc. O tipo de veículo é determinado com base nas características específicas do veículo no momento da passagem pelo pórtico e pode ser influenciado por fatores como carga, número de passageiros, e até mesmo características externas identificáveis na passagem, como a forma ou a cor.]]></commentInRDBMS>
+<ownerDesignName>tecsidel</ownerDesignName>
+<engineerTo>
+<item key="4637A610-B5FD-0512-EA0F-815D126A526D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="distancia_veiculo_portico" id="DECE53C0-F531-A8D2-CC3B-848508D40538">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 00:11:47 UTC</createdTime>
+<ownerDesignName>tecsidel</ownerDesignName>
+<engineerTo>
+<item key="4637A610-B5FD-0512-EA0F-815D126A526D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_portico" id="08B8DEF3-6A71-4F7E-3B8A-6B05D4407672">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 00:56:02 UTC</createdTime>
+<generatorID>BD3A3BA4-1FBC-AD27-A6ED-2EC78A0F196D</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<engineerTo>
+<item key="4637A610-B5FD-0512-EA0F-815D126A526D" value="true"/>
+</engineerTo>
+<referedAttribute>505FD04C-7C4E-FF54-D110-89DC13E868AA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_placa" id="067B30ED-D8E7-FD26-E405-7A5D0BDA3043">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 00:57:54 UTC</createdTime>
+<generatorID>830FAE4E-3F23-ABDE-C940-3750CB310353</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<engineerTo>
+<item key="4637A610-B5FD-0512-EA0F-815D126A526D" value="true"/>
+</engineerTo>
+<referedAttribute>FF2AC3F7-ACF4-CE78-4768-9EDF942D74DB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_camera" id="FC45371E-2A16-8178-C197-3D89741406C5">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:11:36 UTC</createdTime>
+<generatorID>DA9AF7E9-A1F1-CED5-5ABB-06682FFB7FFD</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<engineerTo>
+<item key="4637A610-B5FD-0512-EA0F-815D126A526D" value="true"/>
+</engineerTo>
+<referedAttribute>DDCA9E64-2F85-82A3-7623-D4048CC3BFF6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_antena" id="8BA083B6-CB7E-110A-307A-092AC4D96FC7">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:12:30 UTC</createdTime>
+<generatorID>0BB9ED01-6F6A-D1FB-989C-7D30AF0C94F4</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<engineerTo>
+<item key="4637A610-B5FD-0512-EA0F-815D126A526D" value="true"/>
+</engineerTo>
+<referedAttribute>183108FE-F4D2-D766-EC4D-532E33371B40</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0C44D1EB-0343-E738-C31F-6CA0EBBE2267" name="T_PASSAGEM PK">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 00:08:45 UTC</createdTime>
+<ownerDesignName>tecsidel</ownerDesignName>
+<engineerTo>
+<item key="4637A610-B5FD-0512-EA0F-815D126A526D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C3A4CF32-5D50-71DA-687B-159F46E826B7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

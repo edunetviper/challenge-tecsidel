@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC448683-F4E9-FEEA-1189-FD980FB1ACBC" name="T_ANTENA">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>E9C21F04-90BF-0746-1027-CD6A8959DBA5</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_antena" id="DE15BF58-D9E0-4FE8-28FE-84B673EC45B4">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>183108FE-F4D2-D766-EC4D-532E33371B40</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="90A095DF-3535-B755-2C5B-E15FEEC48041">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>4D7789F7-752D-2AD2-C3E8-761F17D2E20D</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="frequencia" id="9025151E-AC1B-7A12-4D87-D39C8819BEF4">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>561E75CA-AC20-9FB0-8E8C-D25F2E6B838F</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alcance" id="49DE8D56-A959-BC6C-3DFC-370220199132">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>35F5D56D-6500-697A-F00A-7A48E526A235</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="potencia_transmissao" id="F876BA6B-2212-845D-BCDE-F426E1042DDA">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>38A4394B-371C-9886-125B-403A6C7908AF</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="largura_banda" id="A9073C25-58BA-9317-B71C-2773499DA135">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>D0596ED3-8633-116C-D240-361C75075C2A</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_portico" id="2D1FE60B-9274-9875-F2AE-03090F7F6D40">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>4D8C0C1E-3825-C870-C568-F56B2303EC6D</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84AF705A-BDE8-1A63-A409-3086C0A48215" referredColumn="8E1F406F-32A9-D95B-249B-9C93102706D5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="68F8A188-943D-5049-51FA-6A2AD6323FC8" name="T_ANTENA_PK">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>C0CE3A2A-C23C-D284-400A-67E299C66C7B</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE15BF58-D9E0-4FE8-28FE-84B673EC45B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5C29C68-7ECA-E73D-AEF6-60777E71E5EF" name="T_ANTENA_T_PORTICO_FK">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>42FF4604-76CD-93A5-A487-3F8969047311</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D1FE60B-9274-9875-F2AE-03090F7F6D40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

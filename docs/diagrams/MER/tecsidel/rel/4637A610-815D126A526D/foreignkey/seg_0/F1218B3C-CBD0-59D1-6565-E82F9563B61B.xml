@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F1218B3C-CBD0-59D1-6565-E82F9563B61B" containerWithKeyObject="50C0175A-8A2E-D398-EDC3-87ABDF5D92D5" localFKIndex="725E671A-3246-5685-5A72-3E8FEC8B1D79" name="T_PASSAGEM_T_PORTICO_FK">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>BD3A3BA4-1FBC-AD27-A6ED-2EC78A0F196D</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<referredTableLongName>T_PORTICO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5A1278E3-6C86-BBD9-7BE8-2F8FFFE8C78B</referredTableID>
+<keyObject>DF7097EC-66C9-1EF4-8D66-E1C7DFE7872A</keyObject>
+<referredKeyID>DF7097EC-66C9-1EF4-8D66-E1C7DFE7872A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_portico</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4D63CBBE-D587-EE2E-AD41-0EAEBC176624" name="T_VEICULO">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 00:05:13 UTC</createdTime>
+<ownerDesignName>tecsidel</ownerDesignName>
+<engineerTo>
+<item key="4637A610-B5FD-0512-EA0F-815D126A526D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_placa" id="FF2AC3F7-ACF4-CE78-4768-9EDF942D74DB">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 00:05:30 UTC</createdTime>
+<ownerDesignName>tecsidel</ownerDesignName>
+<engineerTo>
+<item key="4637A610-B5FD-0512-EA0F-815D126A526D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="altura" id="EC2B0838-1907-3E04-BDDC-50E4E2D878A5">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 00:05:48 UTC</createdTime>
+<ownerDesignName>tecsidel</ownerDesignName>
+<engineerTo>
+<item key="4637A610-B5FD-0512-EA0F-815D126A526D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="largura" id="7708B496-B3ED-3987-B544-1FC315146BB9">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 00:06:07 UTC</createdTime>
+<ownerDesignName>tecsidel</ownerDesignName>
+<engineerTo>
+<item key="4637A610-B5FD-0512-EA0F-815D126A526D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comprimento" id="77905678-BAB5-6EBB-9B29-E08B468BAD4D">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 00:06:24 UTC</createdTime>
+<ownerDesignName>tecsidel</ownerDesignName>
+<engineerTo>
+<item key="4637A610-B5FD-0512-EA0F-815D126A526D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="eixos_rodantes" id="FB3B03B1-E14B-37CA-D77E-410EEA3101C0">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 00:06:38 UTC</createdTime>
+<ownerDesignName>tecsidel</ownerDesignName>
+<engineerTo>
+<item key="4637A610-B5FD-0512-EA0F-815D126A526D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="eixos_suspensos" id="2C757BEF-512D-D98C-D6FA-98358A40D12A">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 00:06:51 UTC</createdTime>
+<ownerDesignName>tecsidel</ownerDesignName>
+<engineerTo>
+<item key="4637A610-B5FD-0512-EA0F-815D126A526D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="velocidade_media" id="1378104C-6A26-C87F-B369-E693E7F96604">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 00:07:28 UTC</createdTime>
+<ownerDesignName>tecsidel</ownerDesignName>
+<engineerTo>
+<item key="4637A610-B5FD-0512-EA0F-815D126A526D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="classe_veiculo" id="29434D66-BC19-8854-ED79-924A21F94868">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 00:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Este atributo representa a classe ou categoria do veículo, geralmente definida com base em critérios como tamanho, capacidade de carga, número de passageiros, entre outros. Exemplos de classes de veículos podem incluir "Carro de passeio", "Caminhão", "Ônibus", "Moto", etc. A classe de veículo é uma característica intrínseca do próprio veículo e é definida independentemente de onde ou como ele está sendo usado.]]></commentInRDBMS>
+<ownerDesignName>tecsidel</ownerDesignName>
+<engineerTo>
+<item key="4637A610-B5FD-0512-EA0F-815D126A526D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AE16D6C4-4101-B200-D97A-B3A574197548" name="T_VEICULO PK">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 00:05:46 UTC</createdTime>
+<ownerDesignName>tecsidel</ownerDesignName>
+<engineerTo>
+<item key="4637A610-B5FD-0512-EA0F-815D126A526D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FF2AC3F7-ACF4-CE78-4768-9EDF942D74DB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

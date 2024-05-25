@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6E3ADF9-ECE3-5D79-CF89-C7A39380EE6D" name="T_VEICULO">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>4D63CBBE-D587-EE2E-AD41-0EAEBC176624</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_placa" id="81D44CFB-A4C3-75BB-6CEF-816AE001940E">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>FF2AC3F7-ACF4-CE78-4768-9EDF942D74DB</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="altura" id="99F7DDA6-25DB-E0E2-E1D6-F741DB96CCBC">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>EC2B0838-1907-3E04-BDDC-50E4E2D878A5</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="largura" id="270A0192-FBD0-5E64-9E7D-78860BE7942D">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>7708B496-B3ED-3987-B544-1FC315146BB9</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comprimento" id="598136FA-8E28-8AFF-5830-815BFDEE0E08">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>77905678-BAB5-6EBB-9B29-E08B468BAD4D</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="eixos_rodantes" id="E1261A25-6BC4-EBDE-B26D-AE0A346B3465">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>FB3B03B1-E14B-37CA-D77E-410EEA3101C0</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="eixos_suspensos" id="7B8B1AE2-11CE-61E7-2CE6-573F84BD76F2">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>2C757BEF-512D-D98C-D6FA-98358A40D12A</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="velocidade_media" id="05AE43BE-44D3-63D3-CEFC-02611E632CA3">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>1378104C-6A26-C87F-B369-E693E7F96604</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="classe_veiculo" id="5E066B7D-277B-AC6B-1700-C3F6BB427794">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Este atributo representa a classe ou categoria do veículo, geralmente definida com base em critérios como tamanho, capacidade de carga, número de passageiros, entre outros. Exemplos de classes de veículos podem incluir "Carro de passeio", "Caminhão", "Ônibus", "Moto", etc. A classe de veículo é uma característica intrínseca do próprio veículo e é definida independentemente de onde ou como ele está sendo usado.]]></commentInRDBMS>
+<generatorID>29434D66-BC19-8854-ED79-924A21F94868</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4EA074FA-0397-1094-917F-87B9B6609AEB" name="T_VEICULO_PK">
+<createdBy>edu09</createdBy>
+<createdTime>2024-05-17 01:15:31 UTC</createdTime>
+<generatorID>AE16D6C4-4101-B200-D97A-B3A574197548</generatorID>
+<ownerDesignName>tecsidel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81D44CFB-A4C3-75BB-6CEF-816AE001940E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
