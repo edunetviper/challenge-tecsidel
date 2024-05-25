@@ -34,4 +34,4 @@ O modelo entidade-relacionamento (ER) foi criado para mapear as relações entre
 - `docs/diagrams/`: Diagramas de classe e modelo entidade-relacionamento.
 - `README.md`: Descrição do projeto.
 
-Desenvolvido por [Seu Nome](https://github.com/edunetviper) para o challenge da FIAP em parceria com a TECSIDEL.
+Desenvolvido por [Eduardo Gonçalves](https://github.com/edunetviper) para o challenge da FIAP em parceria com a TECSIDEL.
